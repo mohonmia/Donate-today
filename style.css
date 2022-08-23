@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    font-family: 'Lobster Two', cursive;
     font-family: 'Poppins', sans-serif;
 }
 .header-bg{
@@ -23,6 +24,11 @@ h1{
     font-size: 65px;
     line-height: 80px;
 }
+h2{
+    font-size: 40px;
+    line-height: 80px;
+}
+
 .btn{
     background-color: #FF5959;
     width: 160px;
@@ -31,4 +37,138 @@ h1{
     color: #fff;
     border-radius: 5px;
     font-size: 16px;
+}
+.price-box{
+    background-color: #FAFAFA;
+    padding: 30px 20px;
+    margin: 40px 20px;
+    border-radius: 10px;
+    color: #707070;
+    font-size: 25px;
+    font-weight: 700;
+}
+.select{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+.flex{
+    display: flex;
+  justify-content: center;
+}
+.donate{
+   text-align: center;
+   padding: 80px 0;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 55%;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.donate-plan{
+    text-align: center;
+}
+.plan-box{
+    background-color: #EDF5F6;
+    padding: 40px 25px;
+    margin:40px 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+.plan{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.donate-plan{
+    margin-top: 80px;
+}
+.plan h3{
+    margin: 20px 0;
+}
+.plan img{
+    margin-top: 20px;
+}
+.plan2{
+    background-color: #FFEEEE;
+}
+.plan3{
+    background-color: #FFF4D6;
+}
+.contribute{
+    margin:80px 80px;
+}
+.contribute h2{
+    line-height: 50px;
+}
+.contribute p{
+    margin-top: 20px;
+    color:#707070
+}
+.contribute .btn{
+    margin-top: 20px;
+    width: 200px;
+}
+.cn-left{
+    padding:40px 0;
+}
+.contribute-part{
+    width: 50%;
+}
+.contribute-part img{
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+}
+.subscribe{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.subscribe p{
+    padding: 30px 0;
+    color:#707070
+}
+form {
+    background: #FFF4D6;
+    width: 50%;
+    margin: auto;
+    padding: 80px;
+    display: inline-table;  
+}
+input[type="email"] {
+    background: #D9D9D9;
+    color: #AA9F9F;
+    font-weight: 700;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+button.subs-btn {
+    background: #FF5959;
+    border: none;
+    padding: 12px 25px;
+    color: #fff;
+    border-top-right-radius: 6px;
+    font-weight: 600;
+    border-bottom-right-radius: 6px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 40px;
+
+}
+footer h5{
+    font-size: 30px;
+    font-family: 'Lobster Two';
+    color: #FF5959;
+}
+footer p{
+    font-size: 10px;
+    padding: 10px 0;
+    color:#D9DBE1
 }
